@@ -1,0 +1,7 @@
+Databases
+Product
+users
+purchases
+
+
+user: abcd@gmail.com
