@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const { identify } = require("./middleware/auth");
+const connectDB = require("./config/db");
 
 const app = express();
 app.disable("x-powered-by");
@@ -16,6 +17,7 @@ app.use(
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization", "X-Guest-Id"],
   }),
+  (_req, _res, next) => connectDB().then(() => next(), next),
   identify,
   require("./routes")
 );
