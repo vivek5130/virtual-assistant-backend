@@ -11,6 +11,11 @@ const assistant = require("../controllers/admin/assistantController");
 const router = express.Router();
 const authLimiter = rateLimit({ windowMs: 15 * 60 * 1000, limit: 30, standardHeaders: true, legacyHeaders: false });
 
+//health check
+router.get("/health", (req, res) => {
+  res.status(200).json({ message: "Server is running" });
+});
+
 // ---- auth ----
 router.post("/auth/register", authLimiter, h(auth.register));
 router.post("/auth/login", authLimiter, h(auth.login));
