@@ -12,10 +12,6 @@ module.exports = {
   mongoDbName: process.env.MONGO_DB_NAME || "shopsmart",
   jwtSecret: process.env.JWT_SECRET,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || "7d",
-  corsOrigins: (process.env.CORS_ORIGINS || "http://localhost:7007")
-    .split(",")
-    .map((o) => o.trim().replace(/\/$/, ""))
-    .filter(Boolean),
   merchantId: process.env.MERCHANT_ID || "shopsmart",
   // Public URL of this storefront (product links sent to the AI platform).
   storePublicUrl: (process.env.STORE_PUBLIC_URL || "http://localhost:7007").replace(/\/$/, ""),

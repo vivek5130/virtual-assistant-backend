@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const env = require("./config/env");
 const { identify } = require("./middleware/auth");
 
 const app = express();
@@ -13,7 +12,7 @@ app.get("/health", (_req, res) => res.json({ ok: true, service: "backend" }));
 app.use(
   "/api",
   cors({
-    origin: env.corsOrigins,
+    origin: true,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization", "X-Guest-Id"],
   }),
