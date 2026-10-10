@@ -1,0 +1,1436 @@
+{
+ "collections": [
+  {
+   "handle": "new-arrivals",
+   "title": "New arrivals",
+   "description": "Fresh on the shelves this month.",
+   "featured": true,
+   "position": 1,
+   "sortOrder": "newest",
+   "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900&q=75"
+  },
+  {
+   "handle": "best-sellers",
+   "title": "Best sellers",
+   "description": "What everyone keeps coming back for.",
+   "featured": true,
+   "position": 2,
+   "sortOrder": "best",
+   "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&q=75"
+  },
+  {
+   "handle": "gifts-under-2000",
+   "title": "Gifts under ₹2000",
+   "description": "Thoughtful, wrapped, and kind to your wallet.",
+   "featured": true,
+   "position": 3,
+   "sortOrder": "price_asc",
+   "image": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=900&q=75"
+  },
+  {
+   "handle": "work-and-travel",
+   "title": "Work & travel",
+   "description": "Gear that keeps up with your commute and your carry-on.",
+   "featured": false,
+   "position": 4,
+   "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=900&q=75"
+  },
+  {
+   "handle": "self-care",
+   "title": "Self-care",
+   "description": "Skincare and slow rituals.",
+   "featured": false,
+   "position": 5,
+   "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=900&q=75"
+  },
+  {
+   "handle": "summer-edit",
+   "title": "The summer edit",
+   "description": "Breezy layers, shades and bottles that stay cold.",
+   "featured": false,
+   "position": 6,
+   "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=900&q=75"
+  }
+ ],
+ "products": [
+  {
+   "title": "Crimson Dash Runner",
+   "vendor": "Stride Co.",
+   "productType": "Running Shoes",
+   "category": "Apparel & Accessories > Shoes > Athletic Shoes",
+   "tags": [
+    "running",
+    "lightweight",
+    "breathable",
+    "unisex",
+    "gym"
+   ],
+   "collections": [
+    "new-arrivals",
+    "best-sellers"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Crimson",
+      "Midnight"
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      "UK 6",
+      "UK 7",
+      "UK 8",
+      "UK 9",
+      "UK 10"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 3499,
+    "compareAtPrice": 4299,
+    "inventoryQuantity": 8,
+    "weight": 540,
+    "weightUnit": "g",
+    "skuPrefix": "STR-DASH"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=900&q=75"
+   ],
+   "specs": {
+    "Upper": "Engineered knit mesh",
+    "Midsole": "Responsive EVA foam",
+    "Drop": "8 mm",
+    "Fit": "True to size"
+   },
+   "rating": 4.6,
+   "ratingCount": 212,
+   "description": "Featherweight daily runner with a responsive foam midsole and breathable knit upper. Built for 5–10K training runs and city miles."
+  },
+  {
+   "title": "Old-School Canvas Low",
+   "vendor": "Kerb",
+   "productType": "Sneakers",
+   "category": "Apparel & Accessories > Shoes > Sneakers",
+   "tags": [
+    "casual",
+    "canvas",
+    "streetwear",
+    "unisex"
+   ],
+   "collections": [
+    "best-sellers",
+    "summer-edit"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Maroon",
+      "Black",
+      "Off-white"
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      "UK 5",
+      "UK 6",
+      "UK 7",
+      "UK 8",
+      "UK 9",
+      "UK 10"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 2199,
+    "inventoryQuantity": 10,
+    "weight": 620,
+    "weightUnit": "g",
+    "skuPrefix": "KRB-LOW"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=900&q=75"
+   ],
+   "specs": {
+    "Upper": "12 oz cotton canvas",
+    "Sole": "Vulcanised rubber",
+    "Closure": "Lace-up"
+   },
+   "rating": 4.4,
+   "ratingCount": 96,
+   "description": "Classic vulcanised canvas low-tops with a padded collar and grippy waffle sole. Goes with everything."
+  },
+  {
+   "title": "Cloudstep Everyday Sneaker",
+   "vendor": "Stride Co.",
+   "productType": "Sneakers",
+   "category": "Apparel & Accessories > Shoes > Sneakers",
+   "tags": [
+    "walking",
+    "comfort",
+    "women",
+    "everyday"
+   ],
+   "collections": [
+    "new-arrivals"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Grey",
+      "Blush"
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      "UK 3",
+      "UK 4",
+      "UK 5",
+      "UK 6",
+      "UK 7"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 2799,
+    "inventoryQuantity": 6,
+    "weight": 480,
+    "weightUnit": "g",
+    "skuPrefix": "STR-CLD"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=900&q=75"
+   ],
+   "specs": {
+    "Insole": "Memory foam",
+    "Upper": "Mesh",
+    "Weight per shoe": "240 g"
+   },
+   "rating": 4.3,
+   "ratingCount": 77,
+   "description": "All-day walking sneaker with a memory-foam insole and soft heel counter."
+  },
+  {
+   "title": "Trailblazer Waterproof Hiker",
+   "vendor": "Ridgeway",
+   "productType": "Hiking Boots",
+   "category": "Apparel & Accessories > Shoes > Boots",
+   "tags": [
+    "hiking",
+    "outdoor",
+    "waterproof",
+    "men",
+    "trekking"
+   ],
+   "collections": [
+    "work-and-travel"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Olive"
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      "UK 7",
+      "UK 8",
+      "UK 9",
+      "UK 10",
+      "UK 11"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 5499,
+    "inventoryQuantity": 3,
+    "weight": 1.1,
+    "weightUnit": "kg",
+    "skuPrefix": "RDG-TRL"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=900&q=75"
+   ],
+   "specs": {
+    "Membrane": "Waterproof, breathable",
+    "Outsole": "5 mm lugs",
+    "Fit": "Runs half a size small"
+   },
+   "rating": 4.7,
+   "ratingCount": 58,
+   "description": "Water-resistant hiking shoe with lugged outsole and toe guard for rocky trails."
+  },
+  {
+   "title": "Sunbeam ANC Over-Ear Headphones",
+   "vendor": "Hush",
+   "productType": "Headphones",
+   "category": "Electronics > Audio > Headphones",
+   "tags": [
+    "wireless",
+    "noise-cancelling",
+    "bluetooth",
+    "travel",
+    "work-from-home"
+   ],
+   "collections": [
+    "best-sellers",
+    "work-and-travel"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Sunflower",
+      "Graphite"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 6999,
+    "compareAtPrice": 8999,
+    "inventoryQuantity": 12,
+    "weight": 250,
+    "weightUnit": "g",
+    "skuPrefix": "HSH-SUN"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&q=75"
+   ],
+   "specs": {
+    "Battery": "40 hours (ANC on)",
+    "Connectivity": "Bluetooth 5.3, multipoint",
+    "Charging": "USB-C, 10 min = 5 h",
+    "Driver": "40 mm"
+   },
+   "rating": 4.5,
+   "ratingCount": 341,
+   "description": "Active noise-cancelling over-ears with 40-hour battery, plush memory-foam cushions and fast USB-C charging."
+  },
+  {
+   "title": "Studio Monitor Headphones",
+   "vendor": "Hush",
+   "productType": "Headphones",
+   "category": "Electronics > Audio > Headphones",
+   "tags": [
+    "wired",
+    "studio",
+    "creator",
+    "bass"
+   ],
+   "collections": [],
+   "options": [],
+   "variantDefaults": {
+    "price": 4499,
+    "inventoryQuantity": 9,
+    "weight": 290,
+    "weightUnit": "g",
+    "skuPrefix": "HSH-STU"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=900&q=75"
+   ],
+   "specs": {
+    "Driver": "50 mm",
+    "Impedance": "32 Ω",
+    "Cable": "Detachable 3 m coiled"
+   },
+   "rating": 4.2,
+   "ratingCount": 88,
+   "description": "Closed-back wired headphones with flat studio tuning and a detachable cable."
+  },
+  {
+   "title": "Pocket Buds Pro",
+   "vendor": "Hush",
+   "productType": "Earbuds",
+   "category": "Electronics > Audio > Headphones",
+   "tags": [
+    "wireless",
+    "earbuds",
+    "bluetooth",
+    "gym",
+    "sweatproof"
+   ],
+   "collections": [
+    "best-sellers"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "White",
+      "Black"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 2999,
+    "inventoryQuantity": 30,
+    "weight": 52,
+    "weightUnit": "g",
+    "skuPrefix": "HSH-PKT"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=900&q=75"
+   ],
+   "specs": {
+    "Battery": "30 hours with case",
+    "Water resistance": "IPX5",
+    "Controls": "Touch"
+   },
+   "rating": 4.1,
+   "ratingCount": 402,
+   "description": "True-wireless earbuds with sweat resistance, touch controls and a pocketable charging case."
+  },
+  {
+   "title": "Boombox Mini Speaker",
+   "vendor": "Loudr",
+   "productType": "Speakers",
+   "category": "Electronics > Audio > Speakers",
+   "tags": [
+    "bluetooth",
+    "speaker",
+    "outdoor",
+    "waterproof",
+    "party"
+   ],
+   "collections": [
+    "summer-edit"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Black",
+      "Teal",
+      "Red"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 3299,
+    "inventoryQuantity": 10,
+    "weight": 540,
+    "weightUnit": "g",
+    "skuPrefix": "LDR-BMB"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=900&q=75"
+   ],
+   "specs": {
+    "Battery": "12 hours",
+    "Water resistance": "IPX7",
+    "Output": "20 W"
+   },
+   "rating": 4.6,
+   "ratingCount": 190,
+   "description": "Rugged waterproof Bluetooth speaker with punchy bass for picnics and pool days."
+  },
+  {
+   "title": "Meridian Classic Watch",
+   "vendor": "Tempo",
+   "productType": "Watches",
+   "category": "Apparel & Accessories > Jewelry > Watches",
+   "tags": [
+    "analog",
+    "gift",
+    "minimal",
+    "unisex"
+   ],
+   "collections": [
+    "best-sellers"
+   ],
+   "options": [
+    {
+     "name": "Strap",
+     "values": [
+      "Tan leather",
+      "Black leather",
+      "Steel mesh"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 5999,
+    "inventoryQuantity": 7,
+    "weight": 70,
+    "weightUnit": "g",
+    "priceAdjustments": {
+     "Strap": {
+      "Steel mesh": 800
+     }
+    },
+    "skuPrefix": "TMP-MER"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900&q=75"
+   ],
+   "specs": {
+    "Case": "40 mm stainless steel",
+    "Glass": "Sapphire-coated",
+    "Water resistance": "3 ATM",
+    "Movement": "Japanese quartz"
+   },
+   "rating": 4.8,
+   "ratingCount": 64,
+   "description": "Minimal analog watch with sapphire-coated glass. A timeless gift."
+  },
+  {
+   "title": "Pulse Fit GPS Smartwatch",
+   "vendor": "Tempo",
+   "productType": "Smartwatches",
+   "category": "Electronics > Wearables > Smartwatches",
+   "tags": [
+    "smartwatch",
+    "fitness",
+    "gps",
+    "heart-rate",
+    "running"
+   ],
+   "collections": [
+    "new-arrivals"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Black",
+      "Stone"
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      "41 mm",
+      "45 mm"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 7499,
+    "inventoryQuantity": 6,
+    "weight": 45,
+    "weightUnit": "g",
+    "priceAdjustments": {
+     "Size": {
+      "45 mm": 700
+     }
+    },
+    "skuPrefix": "TMP-PLS"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=900&q=75"
+   ],
+   "specs": {
+    "Battery": "7 days",
+    "Sensors": "GPS, heart rate, SpO2",
+    "Water resistance": "5 ATM"
+   },
+   "rating": 4.4,
+   "ratingCount": 233,
+   "description": "Fitness smartwatch with built-in GPS, heart-rate and SpO2 tracking, and week-long battery."
+  },
+  {
+   "title": "Riviera Polarised Aviators",
+   "vendor": "Solace",
+   "productType": "Sunglasses",
+   "category": "Apparel & Accessories > Clothing Accessories > Sunglasses",
+   "tags": [
+    "sunglasses",
+    "uv400",
+    "polarised",
+    "summer",
+    "unisex"
+   ],
+   "collections": [
+    "summer-edit",
+    "gifts-under-2000"
+   ],
+   "options": [
+    {
+     "name": "Lens",
+     "values": [
+      "Brown gradient",
+      "Green G-15"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 1799,
+    "inventoryQuantity": 15,
+    "weight": 28,
+    "weightUnit": "g",
+    "skuPrefix": "SOL-RIV"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=900&q=75"
+   ],
+   "specs": {
+    "Frame": "Lightweight metal",
+    "Lens": "Polarised, UV400",
+    "Includes": "Hard case + cloth"
+   },
+   "rating": 4.3,
+   "ratingCount": 120,
+   "description": "Polarised aviators with a lightweight metal frame and UV400 protection."
+  },
+  {
+   "title": "Wayfarer Acetate Shades",
+   "vendor": "Solace",
+   "productType": "Sunglasses",
+   "category": "Apparel & Accessories > Clothing Accessories > Sunglasses",
+   "tags": [
+    "sunglasses",
+    "uv400",
+    "classic"
+   ],
+   "collections": [
+    "gifts-under-2000"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Black",
+      "Tortoise"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 1499,
+    "inventoryQuantity": 18,
+    "weight": 32,
+    "weightUnit": "g",
+    "skuPrefix": "SOL-WAY"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=900&q=75"
+   ],
+   "specs": {
+    "Frame": "Hand-polished acetate",
+    "Lens": "UV400"
+   },
+   "rating": 4.2,
+   "ratingCount": 75,
+   "description": "Bold acetate wayfarers — the everyday classic."
+  },
+  {
+   "title": "Gilded Layer Jewellery Set",
+   "vendor": "Aurum",
+   "productType": "Jewellery Sets",
+   "category": "Apparel & Accessories > Jewelry > Necklaces",
+   "tags": [
+    "jewellery",
+    "gift",
+    "women",
+    "gold-tone",
+    "anti-tarnish"
+   ],
+   "collections": [
+    "gifts-under-2000",
+    "new-arrivals"
+   ],
+   "options": [],
+   "variantDefaults": {
+    "price": 1899,
+    "compareAtPrice": 2499,
+    "inventoryQuantity": 14,
+    "weight": 60,
+    "weightUnit": "g",
+    "skuPrefix": "AUR-GLD"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=900&q=75"
+   ],
+   "specs": {
+    "Material": "Brass, 18k gold-tone plating",
+    "Includes": "3 chains, 2 hoops, 3 rings",
+    "Packaging": "Gift box"
+   },
+   "rating": 4.5,
+   "ratingCount": 51,
+   "description": "Set of layered chains, hoops and rings in anti-tarnish gold tone. Gift-boxed."
+  },
+  {
+   "title": "Commuter Roll-Top Backpack",
+   "vendor": "Carryall",
+   "productType": "Backpacks",
+   "category": "Luggage & Bags > Backpacks",
+   "tags": [
+    "backpack",
+    "laptop",
+    "waterproof",
+    "travel",
+    "work"
+   ],
+   "collections": [
+    "work-and-travel",
+    "best-sellers"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Charcoal",
+      "Olive",
+      "Sand"
+     ]
+    },
+    {
+     "name": "Capacity",
+     "values": [
+      "20L",
+      "28L"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 3999,
+    "inventoryQuantity": 5,
+    "weight": 0.9,
+    "weightUnit": "kg",
+    "priceAdjustments": {
+     "Capacity": {
+      "28L": 600
+     }
+    },
+    "skuPrefix": "CRY-RLT"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=900&q=75"
+   ],
+   "specs": {
+    "Laptop sleeve": "Fits 16 inch",
+    "Fabric": "Water-resistant recycled nylon",
+    "Extras": "Luggage pass-through"
+   },
+   "rating": 4.6,
+   "ratingCount": 143,
+   "description": "Water-resistant roll-top backpack with padded laptop sleeve and luggage pass-through."
+  },
+  {
+   "title": "Essential Organic Cotton Tee",
+   "vendor": "Basics Lab",
+   "productType": "T-Shirts",
+   "category": "Apparel & Accessories > Clothing > Shirts & Tops",
+   "tags": [
+    "t-shirt",
+    "cotton",
+    "organic",
+    "unisex",
+    "everyday"
+   ],
+   "collections": [
+    "best-sellers",
+    "gifts-under-2000"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "White",
+      "Black",
+      "Sage",
+      "Navy"
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 599,
+    "inventoryQuantity": 20,
+    "weight": 180,
+    "weightUnit": "g",
+    "priceAdjustments": {
+     "Size": {
+      "XXL": 100
+     }
+    },
+    "skuPrefix": "BSL-TEE"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=900&q=75"
+   ],
+   "specs": {
+    "Fabric": "100% organic cotton, 220 GSM",
+    "Fit": "Relaxed",
+    "Care": "Machine wash cold"
+   },
+   "rating": 4.4,
+   "ratingCount": 510,
+   "description": "Heavyweight organic cotton tee with a relaxed fit that holds its shape wash after wash."
+  },
+  {
+   "title": "Indigo Straight Jeans",
+   "vendor": "Basics Lab",
+   "productType": "Jeans",
+   "category": "Apparel & Accessories > Clothing > Pants",
+   "tags": [
+    "denim",
+    "jeans",
+    "men",
+    "everyday",
+    "stretch"
+   ],
+   "collections": [],
+   "options": [
+    {
+     "name": "Wash",
+     "values": [
+      "Indigo",
+      "Black"
+     ]
+    },
+    {
+     "name": "Waist",
+     "values": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 1899,
+    "inventoryQuantity": 8,
+    "weight": 650,
+    "weightUnit": "g",
+    "skuPrefix": "BSL-JNS"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1542272604-787c3835535d?w=900&q=75"
+   ],
+   "specs": {
+    "Fabric": "98% cotton, 2% elastane",
+    "Fit": "Straight, mid-rise",
+    "Inseam": "32 inch"
+   },
+   "rating": 4.3,
+   "ratingCount": 208,
+   "description": "Mid-rise straight-fit jeans in comfort-stretch denim."
+  },
+  {
+   "title": "Boho Crochet Poncho",
+   "vendor": "Loom & Co.",
+   "productType": "Ponchos",
+   "category": "Apparel & Accessories > Clothing > Outerwear",
+   "tags": [
+    "women",
+    "knit",
+    "summer",
+    "handmade",
+    "boho"
+   ],
+   "collections": [
+    "summer-edit",
+    "gifts-under-2000"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Ivory",
+      "Terracotta"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 1299,
+    "inventoryQuantity": 6,
+    "weight": 300,
+    "weightUnit": "g",
+    "skuPrefix": "LOM-PNC"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=900&q=75"
+   ],
+   "specs": {
+    "Material": "Cotton crochet",
+    "Size": "Free size",
+    "Care": "Hand wash"
+   },
+   "rating": 4.6,
+   "ratingCount": 39,
+   "description": "Hand-crocheted cotton poncho with tassel hem — a layering piece for breezy evenings."
+  },
+  {
+   "title": "Glow Daily Niacinamide Moisturiser",
+   "vendor": "Dewlab",
+   "productType": "Moisturisers",
+   "category": "Health & Beauty > Personal Care > Skin Care",
+   "tags": [
+    "skincare",
+    "moisturiser",
+    "vegan",
+    "fragrance-free",
+    "all-skin"
+   ],
+   "collections": [
+    "self-care",
+    "gifts-under-2000"
+   ],
+   "options": [
+    {
+     "name": "Size",
+     "values": [
+      "50 ml",
+      "100 ml"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 749,
+    "inventoryQuantity": 40,
+    "weight": 80,
+    "weightUnit": "g",
+    "priceAdjustments": {
+     "Size": {
+      "100 ml": 450
+     }
+    },
+    "skuPrefix": "DEW-GLW"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=900&q=75"
+   ],
+   "specs": {
+    "Key ingredient": "5% niacinamide",
+    "Skin type": "All",
+    "Finish": "Non-greasy"
+   },
+   "rating": 4.4,
+   "ratingCount": 260,
+   "description": "Lightweight niacinamide moisturiser that hydrates without grease. Vegan and fragrance-free."
+  },
+  {
+   "title": "Gentle Foam Cleanser",
+   "vendor": "Dewlab",
+   "productType": "Cleansers",
+   "category": "Health & Beauty > Personal Care > Skin Care",
+   "tags": [
+    "skincare",
+    "cleanser",
+    "vegan",
+    "sensitive"
+   ],
+   "collections": [
+    "self-care"
+   ],
+   "options": [],
+   "variantDefaults": {
+    "price": 499,
+    "inventoryQuantity": 45,
+    "weight": 130,
+    "weightUnit": "g",
+    "skuPrefix": "DEW-FOM"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=900&q=75"
+   ],
+   "specs": {
+    "Volume": "100 ml",
+    "pH": "5.5",
+    "Skin type": "Sensitive"
+   },
+   "rating": 4.5,
+   "ratingCount": 188,
+   "description": "pH-balanced foaming cleanser for sensitive skin."
+  },
+  {
+   "title": "Botanical Face Oil Trio",
+   "vendor": "Root & Leaf",
+   "productType": "Face Oils",
+   "category": "Health & Beauty > Personal Care > Skin Care",
+   "tags": [
+    "skincare",
+    "oil",
+    "gift",
+    "vegan"
+   ],
+   "collections": [
+    "self-care",
+    "gifts-under-2000"
+   ],
+   "options": [],
+   "variantDefaults": {
+    "price": 1599,
+    "inventoryQuantity": 12,
+    "weight": 260,
+    "weightUnit": "g",
+    "skuPrefix": "RNL-TRI"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=900&q=75"
+   ],
+   "specs": {
+    "Includes": "3 x 30 ml",
+    "Process": "Cold-pressed"
+   },
+   "rating": 4.2,
+   "ratingCount": 47,
+   "description": "Three cold-pressed face oils for day, night and weekly treatment."
+  },
+  {
+   "title": "Saffron Noir Eau de Parfum",
+   "vendor": "Maison Ira",
+   "productType": "Perfume",
+   "category": "Health & Beauty > Personal Care > Cosmetics > Perfume & Cologne",
+   "tags": [
+    "fragrance",
+    "gift",
+    "unisex",
+    "long-lasting"
+   ],
+   "collections": [
+    "new-arrivals"
+   ],
+   "options": [
+    {
+     "name": "Size",
+     "values": [
+      "30 ml",
+      "50 ml",
+      "100 ml"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 2199,
+    "inventoryQuantity": 8,
+    "weight": 250,
+    "weightUnit": "g",
+    "priceAdjustments": {
+     "Size": {
+      "50 ml": 1100,
+      "100 ml": 2600
+     }
+    },
+    "skuPrefix": "MSI-SAF"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=900&q=75"
+   ],
+   "specs": {
+    "Notes": "Saffron, oud, amber",
+    "Concentration": "Eau de parfum (18%)",
+    "Longevity": "8+ hours"
+   },
+   "rating": 4.7,
+   "ratingCount": 92,
+   "description": "Warm, long-lasting fragrance with saffron, oud and amber."
+  },
+  {
+   "title": "Stoneware Morning Mug",
+   "vendor": "Kiln",
+   "productType": "Mugs",
+   "category": "Home & Garden > Kitchen & Dining > Tableware > Drinkware",
+   "tags": [
+    "mug",
+    "ceramic",
+    "gift",
+    "coffee",
+    "handmade"
+   ],
+   "collections": [
+    "gifts-under-2000"
+   ],
+   "options": [
+    {
+     "name": "Glaze",
+     "values": [
+      "Speckled white",
+      "Forest green",
+      "Ochre"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 449,
+    "inventoryQuantity": 30,
+    "weight": 380,
+    "weightUnit": "g",
+    "skuPrefix": "KLN-MUG"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=900&q=75"
+   ],
+   "specs": {
+    "Capacity": "350 ml",
+    "Microwave safe": "Yes",
+    "Dishwasher safe": "Yes"
+   },
+   "rating": 4.5,
+   "ratingCount": 301,
+   "description": "Hand-glazed stoneware mug that keeps your chai warm longer."
+  },
+  {
+   "title": "Single-Origin Coffee Beans",
+   "vendor": "Hillbrew",
+   "productType": "Coffee",
+   "category": "Home & Garden > Kitchen & Dining > Food & Beverages > Coffee",
+   "tags": [
+    "coffee",
+    "beans",
+    "gift",
+    "arabica",
+    "indian"
+   ],
+   "collections": [
+    "gifts-under-2000",
+    "new-arrivals"
+   ],
+   "options": [
+    {
+     "name": "Grind",
+     "values": [
+      "Whole bean",
+      "French press",
+      "Espresso"
+     ]
+    },
+    {
+     "name": "Weight",
+     "values": [
+      "250 g",
+      "500 g"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 699,
+    "inventoryQuantity": 20,
+    "weight": 270,
+    "weightUnit": "g",
+    "priceAdjustments": {
+     "Weight": {
+      "500 g": 550
+     }
+    },
+    "skuPrefix": "HLB-COF"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=75"
+   ],
+   "specs": {
+    "Origin": "Chikmagalur, Karnataka",
+    "Roast": "Medium",
+    "Notes": "Cocoa, orange"
+   },
+   "rating": 4.6,
+   "ratingCount": 156,
+   "description": "Medium-roast arabica from Chikmagalur with notes of cocoa and orange."
+  },
+  {
+   "title": "Insulated Steel Bottle",
+   "vendor": "Carryall",
+   "productType": "Water Bottles",
+   "category": "Home & Garden > Kitchen & Dining > Food & Beverage Carriers > Water Bottles",
+   "tags": [
+    "bottle",
+    "insulated",
+    "gym",
+    "travel",
+    "bpa-free"
+   ],
+   "collections": [
+    "work-and-travel",
+    "summer-edit",
+    "gifts-under-2000"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Sage",
+      "Sand",
+      "Black"
+     ]
+    },
+    {
+     "name": "Capacity",
+     "values": [
+      "500 ml",
+      "750 ml",
+      "1 L"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 799,
+    "inventoryQuantity": 15,
+    "weight": 380,
+    "weightUnit": "g",
+    "priceAdjustments": {
+     "Capacity": {
+      "750 ml": 100,
+      "1 L": 300
+     }
+    },
+    "skuPrefix": "CRY-BTL"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=900&q=75"
+   ],
+   "specs": {
+    "Keeps cold": "24 hours",
+    "Keeps hot": "12 hours",
+    "Material": "18/8 stainless steel",
+    "Care": "Hand wash only"
+   },
+   "rating": 4.7,
+   "ratingCount": 420,
+   "description": "Double-wall vacuum bottle — cold for 24 hours, hot for 12."
+  },
+  {
+   "title": "Nordic Lounge Chair",
+   "vendor": "Hygge Home",
+   "productType": "Accent Chairs",
+   "category": "Home & Garden > Furniture > Chairs",
+   "tags": [
+    "furniture",
+    "chair",
+    "living-room",
+    "oak"
+   ],
+   "collections": [],
+   "options": [
+    {
+     "name": "Upholstery",
+     "values": [
+      "Stone grey",
+      "Moss"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 12999,
+    "inventoryQuantity": 2,
+    "weight": 9.5,
+    "weightUnit": "kg",
+    "skuPrefix": "HYG-NRD"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=900&q=75"
+   ],
+   "specs": {
+    "Frame": "Solid oak legs",
+    "Seat height": "44 cm",
+    "Assembly": "Legs screw in"
+   },
+   "rating": 4.4,
+   "ratingCount": 21,
+   "description": "Upholstered accent chair with solid oak legs."
+  },
+  {
+   "title": "ProBook 14 Laptop",
+   "vendor": "Vertex",
+   "productType": "Laptops",
+   "category": "Electronics > Computers > Laptops",
+   "tags": [
+    "laptop",
+    "work",
+    "lightweight",
+    "student"
+   ],
+   "collections": [
+    "work-and-travel"
+   ],
+   "options": [
+    {
+     "name": "Memory",
+     "values": [
+      "16 GB",
+      "32 GB"
+     ]
+    },
+    {
+     "name": "Storage",
+     "values": [
+      "512 GB",
+      "1 TB"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 64999,
+    "inventoryQuantity": 3,
+    "weight": 1.2,
+    "weightUnit": "kg",
+    "priceAdjustments": {
+     "Memory": {
+      "32 GB": 12000
+     },
+     "Storage": {
+      "1 TB": 6000
+     }
+    },
+    "skuPrefix": "VTX-PB14"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=900&q=75"
+   ],
+   "specs": {
+    "Display": "14 inch 2.8K OLED",
+    "Processor": "8-core",
+    "Battery": "18 hours",
+    "Warranty": "2 years"
+   },
+   "rating": 4.6,
+   "ratingCount": 84,
+   "description": "1.2 kg aluminium ultrabook with an 18-hour battery."
+  },
+  {
+   "title": "Creator 16 Laptop",
+   "vendor": "Vertex",
+   "productType": "Laptops",
+   "category": "Electronics > Computers > Laptops",
+   "tags": [
+    "laptop",
+    "gaming",
+    "creator",
+    "rtx"
+   ],
+   "collections": [
+    "new-arrivals"
+   ],
+   "options": [],
+   "variantDefaults": {
+    "price": 96000,
+    "inventoryQuantity": 2,
+    "weight": 2.3,
+    "weightUnit": "kg",
+    "skuPrefix": "VTX-CR16"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=900&q=75"
+   ],
+   "specs": {
+    "GPU": "RTX 4060",
+    "Memory": "32 GB",
+    "Storage": "1 TB SSD",
+    "Display": "16 inch 165 Hz",
+    "Warranty": "2 years"
+   },
+   "rating": 4.7,
+   "ratingCount": 41,
+   "description": "16-inch creator and gaming laptop with RTX 4060 graphics and a 165 Hz display."
+  },
+  {
+   "title": "Instant Film Camera",
+   "vendor": "Snapshot",
+   "productType": "Cameras",
+   "category": "Electronics > Cameras & Optics > Cameras",
+   "tags": [
+    "camera",
+    "instant",
+    "gift",
+    "retro"
+   ],
+   "collections": [
+    "summer-edit"
+   ],
+   "options": [
+    {
+     "name": "Color",
+     "values": [
+      "Cream",
+      "Mint"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 5499,
+    "inventoryQuantity": 5,
+    "weight": 310,
+    "weightUnit": "g",
+    "skuPrefix": "SNP-INS"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=900&q=75"
+   ],
+   "specs": {
+    "Film": "Instant mini",
+    "Exposure": "Automatic",
+    "Extras": "Selfie mirror"
+   },
+   "rating": 4.5,
+   "ratingCount": 110,
+   "description": "Point-and-shoot instant camera with auto exposure and a selfie mirror."
+  },
+  {
+   "title": "Dot-Grid Journal",
+   "vendor": "Paperfolk",
+   "productType": "Notebooks",
+   "category": "Office Supplies > Paper Products > Notebooks",
+   "tags": [
+    "notebook",
+    "journal",
+    "gift",
+    "student",
+    "stationery"
+   ],
+   "collections": [
+    "gifts-under-2000",
+    "work-and-travel"
+   ],
+   "options": [
+    {
+     "name": "Cover",
+     "values": [
+      "Forest",
+      "Crimson",
+      "Navy"
+     ]
+    },
+    {
+     "name": "Size",
+     "values": [
+      "A5",
+      "B5"
+     ]
+    }
+   ],
+   "variantDefaults": {
+    "price": 399,
+    "inventoryQuantity": 40,
+    "weight": 320,
+    "weightUnit": "g",
+    "priceAdjustments": {
+     "Size": {
+      "B5": 100
+     }
+    },
+    "skuPrefix": "PPF-DOT"
+   },
+   "images": [
+    "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=900&q=75"
+   ],
+   "specs": {
+    "Pages": "192",
+    "Paper": "120 gsm, bleed-resistant",
+    "Binding": "Lay-flat"
+   },
+   "rating": 4.8,
+   "ratingCount": 530,
+   "description": "Lay-flat dot-grid journal with 120 gsm bleed-resistant paper."
+  }
+ ]
+}

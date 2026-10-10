@@ -1,14 +1,27 @@
 {
-  "dependencies": {
-    "@google/generative-ai": "^0.22.0",
-    "axios": "^1.8.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongoose": "^8.11.0",
-    "readline-sync": "^1.4.10"
-  },
+  "name": "shopsmart-demo-store-backend",
+  "version": "2.0.0",
+  "private": true,
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test --test-force-exit --test-timeout=90000 test/*.test.js",
+    "sync:platform": "node -e \"require('./config/db')().then(()=>require('./services/platformSync').fullSync()).then(()=>process.exit(0))\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^4.22.3",
+    "express-rate-limit": "^8.7.1",
+    "google-auth-library": "^11.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.5",
+    "multer": "^2.4.0"
   }
 }

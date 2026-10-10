@@ -1,0 +1,119 @@
+{
+ "name": "ShopSmart",
+ "tagline": "A bazaar of good things. Haggling optional.",
+ "announcement": "Free shipping over ₹999 · 30-day easy returns · Ask Mela, our AI concierge, anything",
+ "supportEmail": "help@shopsmart.example",
+ "currency": "INR",
+ "freeShippingOver": 999,
+ "shippingFee": 79,
+ "paymentMethods": [
+  {
+   "id": "cod",
+   "label": "Cash on delivery"
+  },
+  {
+   "id": "upi-demo",
+   "label": "UPI (demo — no charge)"
+  }
+ ],
+ "navigation": [
+  {
+   "label": "Shop all",
+   "url": "/shop"
+  },
+  {
+   "label": "New arrivals",
+   "url": "/collections/new-arrivals"
+  },
+  {
+   "label": "Gifts under ₹2000",
+   "url": "/collections/gifts-under-2000"
+  },
+  {
+   "label": "Track order",
+   "url": "/track"
+  }
+ ],
+ "footer": [
+  {
+   "title": "Shop",
+   "links": [
+    {
+     "label": "Everything",
+     "url": "/shop"
+    },
+    {
+     "label": "Best sellers",
+     "url": "/collections/best-sellers"
+    },
+    {
+     "label": "Self-care",
+     "url": "/collections/self-care"
+    },
+    {
+     "label": "Work & travel",
+     "url": "/collections/work-and-travel"
+    }
+   ]
+  },
+  {
+   "title": "Help",
+   "links": [
+    {
+     "label": "Track an order",
+     "url": "/track"
+    },
+    {
+     "label": "My orders",
+     "url": "/orders"
+    },
+    {
+     "label": "Wishlist",
+     "url": "/wishlist"
+    }
+   ]
+  }
+ ],
+ "homeSections": [
+  {
+   "type": "categories",
+   "title": "Wander the aisles",
+   "limit": 8
+  },
+  {
+   "type": "collection",
+   "title": "Best sellers",
+   "collectionHandle": "best-sellers",
+   "limit": 8,
+   "tone": "plain"
+  },
+  {
+   "type": "collection",
+   "title": "Gifts under ₹2000",
+   "collectionHandle": "gifts-under-2000",
+   "limit": 4,
+   "tone": "crimson"
+  },
+  {
+   "type": "collection",
+   "title": "New arrivals",
+   "collectionHandle": "new-arrivals",
+   "limit": 4,
+   "tone": "plain"
+  }
+ ],
+ "trustBadges": [
+  {
+   "icon": "truck",
+   "text": "Free shipping over ₹999"
+  },
+  {
+   "icon": "shield",
+   "text": "30-day easy returns"
+  },
+  {
+   "icon": "sparkles",
+   "text": "AI concierge, 24×7"
+  }
+ ]
+}
