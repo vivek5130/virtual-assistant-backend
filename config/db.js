@@ -1,14 +1,8 @@
 const mongoose = require("mongoose");
-require("dotenv").config();
+const env = require("./env");
 
-const connectDB = async () => {
-    try {
-        await mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
-        console.log("✅ MongoDB Connected!");
-    } catch (error) {
-        console.error("❌ Database Connection Failed:", error);
-        process.exit(1);
-    }
+module.exports = async function connectDB() {
+  // dbName applies when the URI has no database path (e.g. Atlas SRV strings).
+  await mongoose.connect(env.mongoUri, { dbName: env.mongoDbName });
+  console.log("MongoDB connected");
 };
-
-module.exports = connectDB;
